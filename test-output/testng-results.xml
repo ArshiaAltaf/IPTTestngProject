@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64547" started-at="2023-10-02T16:17:25Z" finished-at="2023-10-02T16:18:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64547" started-at="2023-10-02T16:17:25Z" finished-at="2023-10-02T16:18:29Z">
+      <class name="org.project.BootsHealthCare">
+        <test-method status="PASS" signature="beforeAllTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="beforeAllTc" is-config="true" duration-ms="5493" started-at="2023-10-02T21:47:25Z" finished-at="2023-10-02T21:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTc -->
+        <test-method status="PASS" signature="beforetc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="beforetc" is-config="true" duration-ms="11182" started-at="2023-10-02T21:47:30Z" finished-at="2023-10-02T21:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetc -->
+        <test-method status="PASS" signature="tc1()[pri:1, instance:org.project.BootsHealthCare@6adede5]" name="tc1" duration-ms="506" started-at="2023-10-02T21:47:41Z" finished-at="2023-10-02T21:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="beforetc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="beforetc" is-config="true" duration-ms="4112" started-at="2023-10-02T21:47:42Z" finished-at="2023-10-02T21:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetc -->
+        <test-method status="PASS" signature="afterTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="afterTc" is-config="true" duration-ms="0" started-at="2023-10-02T21:47:42Z" finished-at="2023-10-02T21:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTc -->
+        <test-method status="PASS" signature="Pojo1ForAcceptCookies()[pri:2, instance:org.project.BootsHealthCare@6adede5]" name="Pojo1ForAcceptCookies" duration-ms="1963" started-at="2023-10-02T21:47:46Z" finished-at="2023-10-02T21:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pojo1ForAcceptCookies -->
+        <test-method status="PASS" signature="beforetc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="beforetc" is-config="true" duration-ms="8351" started-at="2023-10-02T21:47:48Z" finished-at="2023-10-02T21:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetc -->
+        <test-method status="PASS" signature="afterTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="afterTc" is-config="true" duration-ms="0" started-at="2023-10-02T21:47:48Z" finished-at="2023-10-02T21:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTc -->
+        <test-method status="PASS" signature="Pojo2ForLogin()[pri:3, instance:org.project.BootsHealthCare@6adede5]" name="Pojo2ForLogin" duration-ms="382" started-at="2023-10-02T21:47:56Z" finished-at="2023-10-02T21:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pojo2ForLogin -->
+        <test-method status="PASS" signature="afterTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="afterTc" is-config="true" duration-ms="0" started-at="2023-10-02T21:47:57Z" finished-at="2023-10-02T21:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTc -->
+        <test-method status="PASS" signature="beforetc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="beforetc" is-config="true" duration-ms="14434" started-at="2023-10-02T21:47:57Z" finished-at="2023-10-02T21:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetc -->
+        <test-method status="FAIL" signature="Pojo3ForUsernamePassword()[pri:4, instance:org.project.BootsHealthCare@6adede5]" name="Pojo3ForUsernamePassword" duration-ms="116" started-at="2023-10-02T21:48:11Z" finished-at="2023-10-02T21:48:11Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder="email@address.com *"]"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f44dfe45ca6bf97b1b9e3757fd68f35f, findElement {using=xpath, value=//input[@placeholder="email@address.com *"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56339/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f44dfe45ca6bf97b1b9e3757fd68f35f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder="email@address.com *"]"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f44dfe45ca6bf97b1b9e3757fd68f35f, findElement {using=xpath, value=//input[@placeholder="email@address.com *"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56339/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f44dfe45ca6bf97b1b9e3757fd68f35f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.utilities.Baseclass.filltextbox(Baseclass.java:374)
+	at org.project.BootsHealthCare.Pojo3ForUsernamePassword(BootsHealthCare.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pojo3ForUsernamePassword -->
+        <test-method status="PASS" signature="beforetc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="beforetc" is-config="true" duration-ms="9299" started-at="2023-10-02T21:48:11Z" finished-at="2023-10-02T21:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetc -->
+        <test-method status="PASS" signature="afterTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="afterTc" is-config="true" duration-ms="0" started-at="2023-10-02T21:48:11Z" finished-at="2023-10-02T21:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTc -->
+        <test-method status="PASS" signature="Pojo4ForSearchProduct()[pri:5, instance:org.project.BootsHealthCare@6adede5]" name="Pojo4ForSearchProduct" duration-ms="7790" started-at="2023-10-02T21:48:20Z" finished-at="2023-10-02T21:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pojo4ForSearchProduct -->
+        <test-method status="PASS" signature="afterAllTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="afterAllTc" is-config="true" duration-ms="845" started-at="2023-10-02T21:48:28Z" finished-at="2023-10-02T21:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTc -->
+        <test-method status="PASS" signature="afterTc()[pri:0, instance:org.project.BootsHealthCare@6adede5]" name="afterTc" is-config="true" duration-ms="0" started-at="2023-10-02T21:48:28Z" finished-at="2023-10-02T21:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTc -->
+      </class> <!-- org.project.BootsHealthCare -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
